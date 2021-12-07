@@ -7,11 +7,15 @@ document.getElementById('login-btn').addEventListener('click', function () {
     const passField = document.getElementById('user-pass');
     const usrPass = passField.value;
 
-    if (usrEmail == 'devplacid@web.com' && usrPass  == '3250') {
+    if (usrEmail == 'devplacid@web.com' && usrPass  == '3250' ) {
          console.log('Working Working Working');
     //  window.location.href="https://www.google.com/";  
-     window.location.href="bank.html";  
+     window.location.href="bank.html"; 
+
              
+    }
+    else if (usrEmail == 'angkon' && usrPass  == '12345') {
+        window.location.href="bank.html"; 
     }
 
     else{
