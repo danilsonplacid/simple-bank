@@ -15,7 +15,7 @@ document.getElementById('login-btn').addEventListener('click', function () {
     }
 
     else{
-        console.log(alert('Error Info')); 
+        console.log(alert("Error. The email address or password you've entered doesn't Match any account. Try Again")); 
     }
     
 })
